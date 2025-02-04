@@ -1,36 +1,33 @@
-Used Car Price Prediction App
+# Used Car Price Prediction App
 
-Model Güncelleme
+## Model Update
+This project uses the RandomForest model to predict used car prices.
+The model was exported using RandomForest 1.5.2, but the current version in use is 1.6.
+If you encounter compatibility issues, you can rerun the cells in Jupyter Notebook or your Python environment to re-export the model in pickle format.
 
-Bu proje, ikinci el araç fiyat tahmini yapmak için RandomForest modeli kullanmaktadır.
-Model, RandomForest 1.5.2 sürümü ile dışarı aktarılmıştır, ancak şu an 1.6 sürümü kullanılmaktadır.
-Eğer uyumsuzluk yaşarsanız, Jupyter Notebook veya ilgili Python ortamında hücreleri çalıştırarak modeli pickle formatında yeniden dışarı aktarabilirsiniz.
+## Flask API Connection
+After starting the Flask API, you need to replace the generated "http://10.xx" address in the following files:
 
-Flask API Bağlantısı
+Line 92 in the PredictionActivity class
 
-Flask API’yi başlattıktan sonra, API'nin oluşturduğu "http://10.xx" ile başlayan adresi aşağıdaki dosyalarda değiştirmelisiniz:
+Line 12 in the ApiClient class
 
-PredictionActivity sınıfının 92. satırında
+After making these changes, your application will communicate with your own API.
 
-ApiClient sınıfının 12. satırında
+## Application Interface
+The application provides a user-friendly interface for predicting car prices. The prediction section requires the following details:
 
-Bu değişiklikleri yaptıktan sonra uygulamanız, kendi API’niz ile iletişim kuracaktır.
+Brand: Select your car's brand.
 
-Uygulama Arayüzü
+Model: Enter your car's model.
 
-Uygulama, kullanıcı dostu bir arayüz ile araç fiyat tahmini yapmanıza olanak tanır. Tahmin bölümü şu bilgileri alır:
+Mileage: Enter the current mileage of your car (in miles).
 
-Marka: Aracınızın markasını seçin.
+Engine Capacity: For example, enter 4.0 for a 4.0 V8 engine.
 
-Model: Aracınızın modelini girin.
+Fuel Type: Select the fuel type, such as gasoline, diesel, or electric.
 
-Kilometre: Aracınızın mevcut kilometresini girin (mil cinsinden).
+Transmission Type: Choose between manual or automatic transmission.
 
-Motor Hacmi: Örneğin, 4.0 V8 motor için 4.0 olarak girin.
-
-Yakıt Türü: Benzin, dizel, elektrik gibi yakıt türünü seçin.
-
-Vites Türü: Manuel veya otomatik gibi vites seçeneklerinden birini seçin.
-
-Tüm bilgileri girdikten sonra "Tahmin Yap" butonuna basarak aracınızın tahmini fiyatını görebilirsiniz.
+After entering all the details, press the "Predict Price" button to see the estimated value of your car.
 
