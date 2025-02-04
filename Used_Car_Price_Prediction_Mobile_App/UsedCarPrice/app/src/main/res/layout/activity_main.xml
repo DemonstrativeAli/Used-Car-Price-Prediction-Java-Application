@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/r8audi2"
+    android:padding="16dp">
+
+    <!-- Uygulama İsmi -->
+    <TextView
+        android:id="@+id/tvWelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_red"
+        android:text="Used Car Price Prediction App"
+        android:textSize="52dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="260dp" />
+
+
+    <!-- Hoşgeldiniz Mesajı -->
+    <TextView
+        android:id="@+id/tvWelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Hoşgeldiniz!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <!-- PredictionActivity'e Giden Buton -->
+    <Button
+        android:id="@+id/btnStartPrediction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fiyat Tahmini Yap"
+        android:padding="12dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- VehicleImagesActivity'e Giden Buton -->
+    <Button
+        android:id="@+id/btnViewVehicles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Araç Markalarını Gör"
+        android:padding="12dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+</LinearLayout>

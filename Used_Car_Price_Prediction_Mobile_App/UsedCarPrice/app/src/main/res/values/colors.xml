@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_700">#00796B</color>
+    <!-- Temel Renkler -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="dark_gray">#A9A9A9</color>
+
+    <!-- Mavi Tonları -->
+    <color name="blue">#0000FF</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="dark_blue">#00008B</color>
+    <color name="sky_blue">#87CEEB</color>
+    <color name="steel_blue">#4682B4</color>
+
+    <!-- Yeşil Tonları -->
+    <color name="green">#008000</color>
+    <color name="light_green">#90EE90</color>
+    <color name="dark_green">#006400</color>
+    <color name="lime">#00FF00</color>
+    <color name="forest_green">#228B22</color>
+
+    <!-- Kırmızı Tonları -->
+    <color name="red">#FF0000</color>
+    <color name="light_red">#FFA07A</color>
+    <color name="dark_red">#8B0000</color>
+    <color name="crimson">#DC143C</color>
+
+    <!-- Sarı Tonları -->
+    <color name="yellow">#FFFF00</color>
+    <color name="light_yellow">#FFFFE0</color>
+    <color name="dark_yellow">#FFD700</color>
+    <color name="gold">#FFD700</color>
+
+    <!-- Turuncu Tonları -->
+    <color name="orange">#FFA500</color>
+    <color name="dark_orange">#FF8C00</color>
+    <color name="light_orange">#FFB347</color>
+
+    <!-- Pembe Tonları -->
+    <color name="pink">#FFC0CB</color>
+    <color name="hot_pink">#FF69B4</color>
+    <color name="deep_pink">#FF1493</color>
+
+    <!-- Mor Tonları -->
+    <color name="purple">#800080</color>
+    <color name="light_purple">#D8BFD8</color>
+    <color name="dark_purple">#4B0082</color>
+    <color name="violet">#EE82EE</color>
+
+    <!-- Kahverengi Tonları -->
+    <color name="brown">#A52A2A</color>
+    <color name="sandy_brown">#F4A460</color>
+    <color name="chocolate">#D2691E</color>
+
+    <!-- Özel Renkler -->
+    <color name="teal">#008080</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="indigo">#4B0082</color>
+    <color name="navy">#000080</color>
+    <color name="olive">#808000</color>
+</resources>

@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaa"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Marka Girişi -->
+        <EditText
+            android:id="@+id/etBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marka (Örn: Toyota)"
+            android:inputType="text" />
+
+        <!-- Model Girişi -->
+        <EditText
+            android:id="@+id/etModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Model (Örn: Corolla)"
+            android:inputType="text" />
+
+        <!-- Mil Girişi -->
+        <EditText
+            android:id="@+id/etMileage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mil (Örn: 2500)"
+            android:inputType="number" />
+
+        <!-- Motor Hacmi -->
+        <EditText
+            android:id="@+id/etEngineCapacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Motor Hacmi (Örn: 2.0)"
+            android:inputType="numberDecimal" />
+
+        <!-- Kaza Sayısı -->
+        <EditText
+            android:id="@+id/etAccidents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kaza Sayısı (Örn: 1)"
+            android:inputType="number" />
+
+        <!-- Vites Türü -->
+        <Spinner
+            android:id="@+id/spinnerTransmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/transmission_types"
+            android:layout_marginTop="8dp" />
+
+        <!-- Benzin Türü -->
+        <Spinner
+            android:id="@+id/spinnerFuelType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/fuel_types"
+            android:layout_marginTop="8dp" />
+
+        <!-- Fiyat Tahmin Butonu -->
+        <Button
+            android:id="@+id/btnPredict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fiyat Tahmin Et"
+            android:layout_marginTop="16dp" />
+
+        <!-- Tahmin Sonucu -->
+        <TextView
+            android:id="@+id/tvPredictionResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tahmin Edilen Fiyat:"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>

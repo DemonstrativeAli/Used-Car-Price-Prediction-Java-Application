@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UsedCarPrice</string>
+        <string-array name="transmission_types">
+            <item>Automatic</item>
+            <item>Manual</item>
+        </string-array>
+
+        <string-array name="fuel_types">
+            <item>Gasoline</item>
+            <item>Diesel</item>
+            <item>Hybrid</item>
+            <item>Electric</item>
+        </string-array>
+</resources>
